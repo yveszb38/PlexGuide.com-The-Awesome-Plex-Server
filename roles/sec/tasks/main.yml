@@ -17,6 +17,6 @@
 #################################################################################
 ---
 - replace:
-    path: /opt/plexguide/roles/secbase/tasks/main.yml
+    path: "/opt/plexguide/roles/secbase/defaults/main.yml"
     regexp: "security_ssh_port: 1800"
     replace: "security_ssh_port: 2200"
