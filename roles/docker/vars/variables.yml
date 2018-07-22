@@ -16,6 +16,5 @@
 #
 #################################################################################
 ---
-intport: "6789"
-extport: "6789"
-pgrole: "nzbget"
+updatecheck: default
+switch: apple
