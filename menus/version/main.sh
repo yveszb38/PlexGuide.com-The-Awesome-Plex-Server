@@ -24,7 +24,7 @@ WIDTH=60
 CHOICE_HEIGHT=5
 BACKTITLE="Visit https://PlexGuide.com - Automations Made Simple"
 TITLE="NOTE: You Must ReInstall PG. You Will Not Lose Data!"
-MENU="Visit Install PG on Forums and Follow Method 1"
+MENU="Type rm -r /opt/plexguide and the ReInstall PG by Following Method 1 (visit site and redownload)"
 
 OPTIONS=(Z "----- Exit Menu -----")
 
