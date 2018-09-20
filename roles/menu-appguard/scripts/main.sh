@@ -26,6 +26,7 @@ menu=$(cat /var/plexguide/appguard.menu)
 if [ "$menu" == "appguard" ]; then
   echo 'INFO - Selected: AppGuard Authentication' > /var/plexguide/pg.log && bash /opt/plexguide/roles/log/log.sh
   ansible-playbook /opt/plexguide/pg.yml --roles menu-appguard
+  bash /opt/plexguide/roles/menu-appguard/scripts/rebuild.sh
 fi
 
 echo 'INFO - Looping: PG Authentication Interface' > /var/plexguide/pg.log && bash /opt/plexguide/roles/log/log.sh
